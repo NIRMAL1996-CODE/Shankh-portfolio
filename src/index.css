@@ -10,7 +10,7 @@ html, body, #root {
 }
 
 /* Headings / Name for music vibe */
-h1, .head {
+h1,h2,p,li, .head {
   font-family: 'Audiowide', cursive;
   font-weight: 400;
 }

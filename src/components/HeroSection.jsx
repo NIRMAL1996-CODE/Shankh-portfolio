@@ -1,7 +1,7 @@
 
 const HeroSection = () => {
   return (
-    <section className="w-full h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('/bg11.jpg')] bg-cover bg-center bg-no-repeat">
+    <section className="w-full h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('/bg11.jpg')] bg-cover bg-center bg-no-repeat ">
 
       <div className="bg-[#FFC4C4]/30 h-[400px] backdrop-blur-s rounded-3xl p-16 shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
         {/* Name */}
