@@ -5,17 +5,17 @@ const HeroSection = () => {
 
       <div className="bg-[#FFC4C4]/50 min-h-[350px] sm:h-[400px] p-8 sm:p-16 backdrop-blur-s rounded-3xl shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
         {/* Name */}
-        <h1 className="head text-4xl sm:text-6xl font-extrabold tracking-wide rounded-3xl p-4 text-[#540863]">
+        <h1 className="head text-4xl sm:text-6xl font-extrabold tracking-wide rounded-3xl p-4 text-[#3d0847]">
           Shankh Jaiswal
         </h1>
 
         {/* Subtitle */}
-        <p className="paratxt font-semibold text-xl sm:text-2xl text-[#540863] mt-3">
+        <p className="paratxt font-semibold text-xl sm:text-2xl text-[#3d0847] mt-3">
           Music Producer • Educator
         </p>
 
         {/* Description */}
-        <p className="paratxt font-semibold max-w-2xl mt-4 mb-8 text-[#540863] text-base sm:text-lg">
+        <p className="paratxt font-semibold max-w-2xl mt-4 mb-8 text-[#3d0847] text-base sm:text-lg">
           Creating powerful electronic & Indian classical fusion music that blends
           emotion, energy, and innovation.
         </p>
@@ -23,7 +23,7 @@ const HeroSection = () => {
         {/* CTA Button */}
         <a
           href="https://www.instagram.com/shankhjaiswal"
-          className="text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 mt-10 rounded-full font-medium shadow-xl transition-all hover:bg-amber-100 text-[#540863] bg-amber-50"
+          className="text-base sm:text-lg px-6 sm:px-10 py-3 sm:py-4 mt-10 rounded-full font-medium shadow-xl transition-all hover:bg-amber-100 text-[#3d0847] bg-amber-50"
         >
           Explore My Instagram
         </a>
