@@ -33,7 +33,7 @@ const servicesData = [
 
 const ServicesPage = () => {
   return (
-   <section className="w-full min-h-screen flex flex-col justify-center items-center px-4 py-16 bg-[url('/exx.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-50 backdrop-blur-md">
+   <section id="services" className="w-full min-h-screen flex flex-col justify-center items-center px-4 py-16 bg-[url('/exx.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-50 backdrop-blur-md">
 
 
 

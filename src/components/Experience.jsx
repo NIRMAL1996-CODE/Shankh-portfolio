@@ -1,8 +1,6 @@
 const ExperiencePage = () => {
   return (
-<section className="w-full min-h-screen flex flex-col justify-center items-center text-center px-4 py-16 bg-[url('/exbk.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-70 backdrop-blur-sm">
-
-
+<section id="experience" className="w-full min-h-screen flex flex-col justify-center items-center text-center px-4 py-16 bg-[url('/exbk.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-70 backdrop-blur-sm">
 
       <h2 className="text-3xl sm:text-5xl font-extrabold text-[#3d0847] mb-4">
         Experience

@@ -1,6 +1,9 @@
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
+
 const Footer = () => {
   return (
-    <footer className="w-full bg-amber-100  text-[#3d0847] px-6 py-16 sm:py-24 flex flex-col sm:flex-row justify-between gap-12 bg-linear-to-r from-red-300 via-orange-300 to-blue-600/40">
+    <footer id="contact" className="w-full bg-amber-100  text-[#3d0847] px-6 py-16 sm:py-24 flex flex-col sm:flex-row justify-between gap-12 bg-linear-to-r from-red-200 via-amber-100 to-red-400/40">
 
       {/* Logo and About */}
       <div className="flex flex-col gap-4 sm:w-1/4">
@@ -37,16 +40,35 @@ const Footer = () => {
       {/* Contact & Social */}
       <div className="flex flex-col gap-4 sm:w-1/4">
         <h3 className="font-bold text-xl mb-2">Contact Me</h3>
-        <p className="text-[#3d0847]">Email: shankh@example.com</p>
+        <p className="text-[#3d0847]">Email: shankh@gmail.com</p>
         <p className="text-[#3d0847]">Phone: +91 12345 67890</p>
 
-        <div className="flex gap-4 mt-2">
-          {/* Dummy Icons */}
-          <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">IG</div>
-          <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">FB</div>
-          <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">YT</div>
-          <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">TW</div>
+       <div className="flex gap-4 mt-2">
+            <a href="https://www.instagram.com/shankhjaiswal" target="_blank">
+              <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
+                <FaInstagram />
+              </div>
+            </a>
+
+            <a href="https://facebook.com" target="_blank">
+              <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
+                <FaFacebook />
+              </div>
+            </a>
+
+            <a href="https://www.youtube.com/@ShankhJaiswal" target="_blank">
+              <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
+                <FaYoutube />
+              </div>
+            </a>
+
+            <a href="https://twitter.com" target="_blank">
+              <div className="w-8 h-8 bg-white/50 rounded-full flex items-center justify-center cursor-pointer">
+                <FaTwitter />
+              </div>
+            </a>
         </div>
+
       </div>
 
       {/* Copyright */}
