@@ -3,7 +3,7 @@ const HeroSection = () => {
   return (
     <section id="home" className="w-full h-screen flex flex-col justify-center items-center text-center px-6 py-20 sm:py-24 bg-[url('/bg11.jpg')] bg-cover bg-center bg-no-repeat ">
 
-      <div className="bg-[#FFC4C4]/50 min-h-[350px] sm:h-[400px] p-8 sm:p-16 backdrop-blur-s rounded-3xl shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
+      <div className="bg-[#FFC4C4]/70 min-h-[350px] sm:h-[400px] p-8 sm:p-16 backdrop-blur-s rounded-3xl shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
         {/* Name */}
         <h1 className="head text-4xl sm:text-6xl font-extrabold tracking-wide rounded-3xl p-4 text-[#3d0847]">
           Shankh Jaiswal

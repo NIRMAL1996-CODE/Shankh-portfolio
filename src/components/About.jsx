@@ -3,7 +3,7 @@ const AboutPage = () => {
     <section id="about"
       className=" w-full py-16 sm:py-20 px-4 sm:px-6 min-h-screen flex flex-col justify-center items-center text-center bg-[url('/back1.jpg')] bg-cover bg-center bg-no-repeat bg-blend-overlay ">
       
-      <div className="bg-white/50 w-full max-w-[800px] h-[520px] sm:h-[480px] backdrop-blur-s rounded-3xl p-16 shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
+      <div className="bg-white/80 w-full max-w-[800px] h-[520px] sm:h-[480px] backdrop-blur-s rounded-3xl p-16 shadow-xl transform hover:-translate-y-2 hover:scale-105 transition-all">
         
         <h2 className="text-3xl sm:text-5xl font-extrabold text-[#3d0847] mb-4">
           About Me
