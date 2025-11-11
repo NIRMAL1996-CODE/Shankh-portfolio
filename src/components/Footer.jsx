@@ -40,8 +40,8 @@ const Footer = () => {
       {/* Contact & Social */}
       <div className="flex flex-col gap-4 sm:w-1/4">
         <h3 className="font-bold text-xl mb-2">Contact Me</h3>
-        <p className="text-[#3d0847]">Email: shankh@gmail.com</p>
-        <p className="text-[#3d0847]">Phone: +91 12345 67890</p>
+        <p className="text-[#3d0847]">Email: shankhjaiswal@gmail.com</p>
+        <p className="text-[#3d0847]">Phone: +91 8878192405</p>
 
        <div className="flex gap-4 mt-2">
             <a href="https://www.instagram.com/shankhjaiswal" target="_blank">
